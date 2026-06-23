@@ -45,7 +45,7 @@ img{max-width:100%;display:block;}
 /* ===== Home profile (Bianchi-style clean column) ===== */
 .profile{padding:32px 0 52px;}
 .profile .container{max-width:900px;}
-.profile-top{display:flex;align-items:center;gap:52px;margin-bottom:22px;}
+.profile-top{display:flex;align-items:center;gap:52px;margin-bottom:42px;}
 .profile-photo{width:200px;height:200px;flex-shrink:0;object-fit:cover;object-position:center;border-radius:50%;margin:0;box-shadow:0 10px 30px rgba(13,27,43,.16);}
 .profile-top .latest-inner{flex:1;}
 .profile-name{font-size:clamp(2rem,4vw,2.8rem);margin:0 0 22px;letter-spacing:-.01em;}
@@ -95,9 +95,10 @@ img{max-width:100%;display:block;}
 .paper h3{text-align:center;font-size:1.4rem;margin:0 0 4px;}
 .paper .jmp-sub{text-align:center;color:var(--gray);font-weight:600;margin:0 0 22px;}
 .paper .authors-c{text-align:center;color:var(--link);font-weight:700;font-size:.95rem;margin:0 0 22px;}
+.paper h3 .rr{color:var(--link);white-space:nowrap;}
 .paper h3 + .paper-body{margin-top:24px;}
-.paper-body{display:grid;grid-template-columns:250px 1fr;gap:40px;align-items:center;}
-.paper-body .fig img{width:100%;max-width:250px;height:auto;border:1px solid var(--border);border-radius:6px;background:#fff;}
+.paper-body{display:grid;grid-template-columns:380px 1fr;gap:40px;align-items:center;}
+.paper-body .fig img{width:100%;max-width:380px;height:auto;border:1px solid var(--border);border-radius:6px;background:#fff;}
 .paper-body .abstract{color:#2b3138;font-size:1rem;margin:0 0 16px;}
 .paper-body .links{display:flex;flex-wrap:wrap;gap:22px;}
 .paper-body .links a{font-weight:700;font-size:15px;color:var(--link);}
@@ -137,7 +138,7 @@ img{max-width:100%;display:block;}
 .contact-card p{margin:0;color:var(--gray);}
 
 /* ===== Footer (bright blue) ===== */
-.footer{background:var(--bright);color:#fff;padding:54px 0 30px;}
+.footer{background:var(--blue);color:#fff;padding:54px 0 30px;}
 .footer a{color:#fff;}
 .footer-inner{display:flex;flex-wrap:wrap;justify-content:space-between;gap:32px;}
 .footer h4{color:#fff;margin:0 0 10px;}
