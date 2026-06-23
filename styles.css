@@ -97,8 +97,8 @@ img{max-width:100%;display:block;}
 .paper .authors-c{text-align:center;color:var(--link);font-weight:700;font-size:.95rem;margin:0 0 22px;}
 .paper h3 .rr{color:var(--link);white-space:nowrap;}
 .paper h3 + .paper-body{margin-top:24px;}
-.paper-body{display:grid;grid-template-columns:380px 1fr;gap:40px;align-items:center;}
-.paper-body .fig img{width:100%;max-width:380px;height:auto;border:1px solid var(--border);border-radius:6px;background:#fff;}
+.paper-body{display:grid;grid-template-columns:320px 1fr;gap:40px;align-items:center;}
+.paper-body .fig img{width:100%;max-width:320px;height:auto;border:1px solid var(--border);border-radius:6px;background:#fff;}
 .paper-body .abstract{color:#2b3138;font-size:1rem;margin:0 0 16px;}
 .paper-body .links{display:flex;flex-wrap:wrap;gap:22px;}
 .paper-body .links a{font-weight:700;font-size:15px;color:var(--link);}
